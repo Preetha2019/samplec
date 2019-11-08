@@ -1,8 +1,7 @@
 long int lSum; 
 long int lSub;// Using ‘int’ is optional.
 long int lCount;
-void SumInt(
-int nItem)
+void SumInt(int nItem)
 {
 lSum += (long)nItem;
 ++lCount;
