@@ -1,5 +1,6 @@
 #include<stdio.h> 
 #include<conio.h> 
+int Factorial( int number );
 int main() 
 { 
 int number,f,i; 
