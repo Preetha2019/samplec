@@ -5,7 +5,10 @@ int main()
     int a=10;
     char larg;
     large(a);
-    printf("a is less than 20\n", larg);
+    if(a<20)
+{
+    l=large(number);
+    printf("%d is less than 20\n", a);
     printf("The value of a is:%d",a)
     return 0;
 }

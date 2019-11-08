@@ -12,7 +12,7 @@ if(number<0)
     }
     else
     {
-f= Factorial(number); 
+f= Fa#ctorial(number); 
 printf("Factorial of %d is:%d", number, f); 
 return(0); 
     }
