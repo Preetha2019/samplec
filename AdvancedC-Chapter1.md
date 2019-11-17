@@ -30,44 +30,50 @@ Most of C's power comes from these attributes:
 *_Hungarian notation_ helps to prevent assigning the wrong data type to a variable, and helps you understand why you are using a particular data object.
 ### Function declaration:
 * When you are writing a function, you must have a function declaration.
+
 __Example1:__
+
 int Myfunction(int n, char a[], char chMode)
+
 __Example2:__
+
 (img src"https://photos.google.com/photo/AF1QipP02V84yMLGvmZ9AmakOliOvsd1i73bQDyQA49V")
+
 ### Recommendation to order C source files:
 1. Use a one-line file description with the filename
 2. Add _#include_ statement
 3. Folllowing information usually is included with a typical source file:
-/
+
 **************************************************************************
-**
+
 ** PROJECT: The project’s name goes here.
-**
+
 ** TITLE: The FILE’S title (not the project title).
-**
+
 ** FUNCTION: What the function(s) in this file does.
+
 ** More than one line if necessary.
-**
+
 ** INPUTS: What generally is passed to the functions.
-**
+
 ** OUTPUTS: What the functions return.
-**
+
 ** RETURNS: Some functions don’t return normally; say so if necessary.
-**
+
 ** WRITTEN: When the file was created.
-**
+
 ** CALLS: Significant calls to other parts of program.
-**
+
 ** CALLED BY: Who (generally) calls these functions.
-**
+
 ** AUTHOR: Your name.
-**
+
 ** NOTES: Modifications, special considerations, and so on.
-**
-** COPYRIGHT 1992: By whomever. All rights reserved. All wrongs
-** deserved.
-**
+
+** COPYRIGHT 1992: By whomever. All rights reserved. All wrongs deserved.
+
 **************************************************************************/
+
 4. After the program header, put the definitions and declarations used in this file.
 5. List the file's functions.
 ### Memory Models
