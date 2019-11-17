@@ -44,7 +44,6 @@ __Example2:__
 2. Add _#include_ statement
 3. Folllowing information usually is included with a typical source file:
 
-**************************************************************************
 
 ** PROJECT: The project’s name goes here.
 
@@ -71,8 +70,6 @@ __Example2:__
 ** NOTES: Modifications, special considerations, and so on.
 
 ** COPYRIGHT 1992: By whomever. All rights reserved. All wrongs deserved.
-
-**************************************************************************/
 
 4. After the program header, put the definitions and declarations used in this file.
 5. List the file's functions.
