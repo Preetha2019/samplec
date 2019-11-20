@@ -64,4 +64,8 @@
  ##### Hint:
  
    C program should be written into one or more text files with extension ".c"; for example, hello.c. You can
+<<<<<<< HEAD
 use "vi", "vim" or any other text editor to write your C program into a file.
+=======
+use "vi", "vim" or any other text editor to write your C program into a file.
+>>>>>>> 8358c9ee985ec0c96dec4d7fae06290d3e0a9588
