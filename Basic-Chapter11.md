@@ -573,4 +573,10 @@ The for loop is traditionally used for this purpose. Since none of the three exp
 
 #### Hint:
 
- We can _terminate_ an infinite loop by pressing __Ctrl + C_ keys.
+ We can _terminate_ an infinite loop by pressing __Ctrl + C__ keys.
+
+#### Image view:
+
+(img src "https://photos.app.goo.gl/cEyaei5obsV8G18e7")
+
+Here the last line of command shows that the infinite loop terminated by pressing __Ctrl + c__ key. 
