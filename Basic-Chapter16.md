@@ -7,7 +7,7 @@
 
 1. strcpy(s1, s2);
 
-Copies string s2 into string s1.
+Copies string s2 into string s1
 
 2. strcat(s1, s2);
 
