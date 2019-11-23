@@ -27,7 +27,7 @@ datatype arrayName [ arraySize ];
 
     datatype name[size1][size2]...[sizeN];
 
-    (img src"https://photos.app.goo.gl/bW75SHpyRXjsG7Zi9")
+(img src"https://photos.app.goo.gl/bW75SHpyRXjsG7Zi9")
 
 ### Need of declaring a formal parameter:
 
