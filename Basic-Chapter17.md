@@ -43,7 +43,7 @@
 
 (img src"https://photos.app.goo.gl/7q6BHSWmmeNdYudcA")
 
-Note:
+#### Note:
 
     Bit field used to optimize the space.
 
