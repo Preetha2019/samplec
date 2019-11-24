@@ -33,11 +33,11 @@ Returns a pointer to the first occurrence of string s2 in string s1.
 
 Returns a reversal of string.
 
-8.strupr(s1);
+8. strupr(s1);
 
 Returns the uppercase of string.
 
-9.strupr(s1);
+9. strupr(s1);
 
 Returns the lowercase of string.
 
