@@ -29,7 +29,7 @@
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/RwSfBJ3YXJuSnmfY7")
+(img src"https://photos.app.goo.gl/RwSfBJ3YXJuSnmfY7")
 
 #### Null pointer:
     
@@ -37,7 +37,7 @@
 
     _IMAGE_
     
-        (img src"https://photos.app.goo.gl/uVAGGeUZKKnUf7XU7")
+ (img src"https://photos.app.goo.gl/uVAGGeUZKKnUf7XU7")
 
 ### Note:
 
@@ -45,46 +45,46 @@
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/nUMaxngmpXkfzWbD8")
+(img src"https://photos.app.goo.gl/nUMaxngmpXkfzWbD8")
 
     * Decrementing pointer: Used to access previous value
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/yuwL8bt9HvBPNKFAA")
+  (img src"https://photos.app.goo.gl/yuwL8bt9HvBPNKFAA")
 
     * Pointer comparison: Pointer compared using relational operator
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/FuVA5prdAQDeZHAo7")
+  (img src"https://photos.app.goo.gl/FuVA5prdAQDeZHAo7")
 
     * Pointer also used to access the variable of an array 
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/h3CBPqA4ihiVj8zS7")
+  (img src"https://photos.app.goo.gl/h3CBPqA4ihiVj8zS7")
 
     * Array of pointer used to access the list of strings
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/Tb4PRWLecuZL4fW8A")
+(img src"https://photos.app.goo.gl/Tb4PRWLecuZL4fW8A")
 
     * Pointer to pointer also possible
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/2Kb9Ybed23q4tnjE9")
+  (img src"https://photos.app.goo.gl/2Kb9Ybed23q4tnjE9")
 
     * Passing pointer to function is possible
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/XXzuHqwfKWCNdf7U8")
+  (img src"https://photos.app.goo.gl/XXzuHqwfKWCNdf7U8")
 
     * Returning pointer from function: Pointer is used to return the sequence of array elements in c programming 
 
     _IMAGE_
 
-        (img src"https://photos.app.goo.gl/GJVc3iAJCchyVnEW9")
+  (img src"https://photos.app.goo.gl/GJVc3iAJCchyVnEW9")
