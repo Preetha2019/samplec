@@ -1,26 +1,27 @@
 #include<stdio.h>
-#include<conio.h>
+int Even_Sum(int a[6]);
 int main()
 {
-    int n,i;
-    n=6;
-    int a[i]={-123,32,45,50,100,1000};
-    for(i=0;i<n;i++)
+    int i, Result;
+    int b[]={-123, 32, 45, 50, 100, 1000};
+    printf(" \t The elements of an array are:");
+    for(i=0;i<6;i++)
     {
-    printf(" \t The elements of an array are:\n");
-    printf("%d", a[i]);
-    Even_Sum(a[i]);
+    printf("%d\t", b[i]);
     }
-    int Even_Sum(int a[i])
-    {
-        int Even_Sum=0;
-    for(i=0;i<n;i++)
+    Result= Even_Sum(b);
+    printf("\n The sum of even numbers in an array=%d", *(Result+1));
+    return(0);
+}
+int Even_Sum(int a[6])
+{
+    int Even_Sum=0, i;
+    for(i=0;i<6;i++)
     {
         if(a[i]%2==0)
         {
-            Even_Sum=Even_Sum+a[i];
+            Even_Sum +=a[i];
         }
     }
-    printf("\n The Sum of even numbers in an array=%d",Even_Sum);
-    return(0);
+    return Even_Sum;
 }
