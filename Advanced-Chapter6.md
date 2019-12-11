@@ -178,4 +178,30 @@ long lSomething);
 
 #endif /* PROTOYTP_H */
 
+### Object Utility Library(LIB):
 
+* It is used to maintain library files.
+
+* It performs the following functions:
+* 
+• Adds an object module to the library
+
+• Deletes an existing object module from the library
+
+• Replaces an existing object module in the library by performing a delete
+followed by an add
+
+• Extracts an object module from the library
+
+• Maps a library and provides a listing of the library’s contents, the sizes of the library’s members, and the member’s entry points and other external names
+
+### MAKE files:
+
+* MAKE file has the variables. If this varaiable defined referenced by enclosing it within the parentheses and preceding the opening parentheses with a dollar sign. So, It have the capability to quickly add new source.If this isn't defined, the result is blank, no error will be generated.
+  
+  #### Example here variable(includes) is defined:
+
+  includes = twofile.h define.h typedef.h vars.h prototyp.h
+
+* It looks at the date on which one file was created or last modified and compares it to the date of another file. If the first file is older than the second, the MAKE performs some specified action, such as compiling, linking, or another command that can be called from the command prompt.
+* To automate the process of creating a large program that has multiple source file the MAKE file is used.
