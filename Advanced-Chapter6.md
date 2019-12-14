@@ -79,9 +79,9 @@ _To write effective large projects, the following include files are used_
 
   ### Example:
 
-#ifndef TYPEDEF_H
+ #ifndef TYPEDEF_H
 
-#define TYPEDEF_H
+ #define TYPEDEF_H
 
 typedef struct
 
@@ -111,7 +111,7 @@ typedef FONTSPECS NEAR *NPFONTSPECS;
 
 typedef FONTSPECS FAR *LPFONTSPECS;
 
-#endif /* TYPEDEF_H */
+ #endif /* TYPEDEF_H */
 
 
 * vars statement:
@@ -119,17 +119,17 @@ typedef FONTSPECS FAR *LPFONTSPECS;
 
   ### Example:
 
-#ifndef VARS_H
+ #ifndef VARS_H
 
-#define VARS_H
+ #define VARS_H
 
-#ifndef EXTERN
+ #ifndef EXTERN
 
-#define EXTERN /*NULL, do variable declarations */
+ #define EXTERN /*NULL, do variable declarations */
 
-#define INITIALIZE_EXTERN
+ #define INITIALIZE_EXTERN
 
-#endif /* EXTERN */
+ #endif /* EXTERN */
 
 EXTERN char szBuffer[257]; /* Scratch buffer, contents undefined */
 
@@ -139,21 +139,21 @@ EXTERN int nErrorCount; /* How many errors so far? */
 
 EXTERN int nErrorValue
 
-#if defined(INITIALIZE_EXTERN) /* Do the initialization */
+ #if defined(INITIALIZE_EXTERN) /* Do the initialization */
 
 = {NO_ERROR} /* Initialized */
 
-#endif
+ #endif
 
 ;
 
-#if defined (INITIALIZE_EXTERN)
+ #if defined (INITIALIZE_EXTERN)
 
-#undef INITIALIZE_EXTERN
+ #undef INITIALIZE_EXTERN
 
-#endif
+ #endif
 
-#endif /* VARS_H */
+ #endif /* VARS_H */
 
 ### Illustration:
 
@@ -175,7 +175,7 @@ It contains function prototype for each program's funtion.
 
 ifndef PROTOTYP_H
 
-#define PROTOTYP_H
+ #define PROTOTYP_H
 
 /* source file return name(parameters); */
 
@@ -187,14 +187,14 @@ ifndef PROTOTYP_H
 
 long lSomething);
 
-#endif /* PROTOYTP_H */
+ #endif /* PROTOYTP_H */
 
 ### Object Utility Library(LIB):
 
 * It is used to maintain library files.
 
 * It performs the following functions:
-* 
+   
 • Adds an object module to the library
 
 • Deletes an existing object module from the library
@@ -210,7 +210,9 @@ followed by an add
 
 * MAKE file has the variables. If this varaiable defined referenced by enclosing it within the parentheses and preceding the opening parentheses with a dollar sign. So, It have the capability to quickly add new source.If this isn't defined, the result is blank, no error will be generated.
   
-  #### Example here variable(includes) is defined:
+  #### Example:
+  
+   Here, variable(includes) is defined:
 
   includes = twofile.h define.h typedef.h vars.h prototyp.h
 
@@ -219,7 +221,7 @@ followed by an add
 
 ### Step by step Procedure to create make file in c and c++:
 
-Step 1:
+__Step 1:__
 
 * Create a new file in text editor and put name as Makefile(here spelling is important)
   
@@ -227,11 +229,15 @@ Step 1:
 
   Ex: #### This target will compile 
 
+__Step 2:__
+
 * Makefile have a target name before colon and this name haasa the dependency on the file that has declared after colon with one whitespace.
 
   "target name": "Dependency file"
 
   Ex: hello: world
+
+__Step 3:__
 
 * After the target name, next line must declare the command for execution and it should be spaced with single tab.
   
@@ -243,11 +249,15 @@ For c++ program:
 
     g++ twofile1.cpp twofile2.cpp -o world
 
+__Step 4:__
+
 * Then compile this program in compiler with "make" and "target name", then we have the exectable file corresponds to that target name.
   
         _Hint:_ _Make always detects the first target and execute first target until any target name is specified._
 
                _If any changes in particular file ,it only execute that file unless execute all the files._
+
+__Step 5:__
 
 * After that we can execute the program.
 
