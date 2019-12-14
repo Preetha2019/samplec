@@ -155,6 +155,17 @@ EXTERN int nErrorValue
 
 #endif /* VARS_H */
 
+### Illustration:
+
+  Here,
+
+   * The variable extern shares the data between teo files.
+  
+   * twofile.h file used to include all header files.
+  
+   * define.h used to define the user defined variable. So, it first searches file in current directory.
+  
+(img src"https://photos.app.goo.gl/c77akuwAtd2DJ7Ei8")
 
 * prototyp statement:
   
@@ -205,3 +216,49 @@ followed by an add
 
 * It looks at the date on which one file was created or last modified and compares it to the date of another file. If the first file is older than the second, the MAKE performs some specified action, such as compiling, linking, or another command that can be called from the command prompt.
 * To automate the process of creating a large program that has multiple source file the MAKE file is used.
+
+### Step by step Procedure to create make file in c and c++:
+
+Step 1:
+
+* Create a new file in text editor and put name as Makefile(here spelling is important)
+  
+  In make file we can give command with "####" delimiter
+
+  Ex: #### This target will compile 
+
+* Makefile have a target name before colon and this name haasa the dependency on the file that has declared after colon with one whitespace.
+
+  "target name": "Dependency file"
+
+  Ex: hello: world
+
+* After the target name, next line must declare the command for execution and it should be spaced with single tab.
+  
+ For c program:
+
+    gcc twofile1.c twofile2.c -o world
+
+For c++ program:
+
+    g++ twofile1.cpp twofile2.cpp -o world
+
+* Then compile this program in compiler with "make" and "target name", then we have the exectable file corresponds to that target name.
+  
+        _Hint:_ _Make always detects the first target and execute first target until any target name is specified._
+
+               _If any changes in particular file ,it only execute that file unless execute all the files._
+
+* After that we can execute the program.
+
+
+
+
+
+
+
+
+
+
+
+
