@@ -105,7 +105,7 @@ WorkSupplier = *npSupplier;
 printf("Supplier name: %s\n", npSupplier->szName);
 // Do other processing for Supplier...
 // .
-// .
+// . 
 // .
 // Return WorkSupplier to caller.
 return(WorkSupplier);
