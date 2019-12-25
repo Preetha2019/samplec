@@ -44,3 +44,39 @@ void _ _near *_ncalloc ( size_t num, size_t size );              Allocates a blo
 #### Example Program 7.2: calloc() function
 
 (imgsrc"https://photos.app.goo.gl/tb4gnQSFUT3JpPzZ9")
+
+#### free() function:
+
+It used to reset the pointers into null, when the block of memory freed
+
+for (j = 0; j < i; j++)
+{
+free(nPointer[j]);
+nPointer[j] = NULL;
+}
+
+Here, this loop used to reset the pointers. 
+
+#### realloc() function:
+
+* When calloc() allocating all available free memory for the program, it wastes a lot of memory.
+
+* The best solution to overcome this issue is to call realloc() function
+
+* The realloc() function copies the content of the original block of memory into new block, then it frees the original block. Hence the work is minimized. 
+     
+#### Example Program 7.3: realloc() function:
+
+(imgsrc"https://photos.app.goo.gl/C3TA4CGeXiPD6y2DA")
+
+#### Allocating Array:
+
+It used to dynamically allocte the array at runtime with calloc() call function.
+
+#### Example Program 7.4: Allocating Array:
+
+(imgsrc"https://photos.app.goo.gl/cvCKprwyamTPzMJ29")
+
+#### Hint:
+
+The pointer(near and far pointer) size affects the size of the executable program and the performance of the program.
