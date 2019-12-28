@@ -15,6 +15,6 @@
         Archive-> The file has not been backed up since it was last changed. BACKUP and XCOPY can use and change the archive attribute.
 * Except read attribute, others must be set using DOS ATTRIB command. 
 * When a file is opened, the program typically must specify the filename and the mode: read, write, or both read and write.
-* Identifier returned by opened file usedt o call the read and write function.
+* Identifier returned by opened file used to call the read and write function.
 * If the program has finished with the file, the file should be closed or the file should be temporarly deleted.
 * ftell() and fgetpos() functions used to return the correct position of the data object.
