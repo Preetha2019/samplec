@@ -1,5 +1,5 @@
 # Advanced C Programming
-## Chapter 8. Disk Files and Other IO
+## Chapter 9. Disk Files and Other IO
 
 * ANSI offers collection of file IO functions.
 * We can write a file in unformatted manner and our program can write a file in formatted manner.
@@ -18,9 +18,3 @@
 * Identifier returned by opened file usedt o call the read and write function.
 * If the program has finished with the file, the file should be closed or the file should be temporarly deleted.
 * ftell() and fgetpos() functions used to return the correct position of the data object.
-
-
-
-
-
-
