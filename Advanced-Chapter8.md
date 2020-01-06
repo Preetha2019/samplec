@@ -1,5 +1,5 @@
 # Advanced C Programming
-## Chaoter 8. Dynamic Memory Allocation
+## Chapter 8. Dynamic Memory Allocation
 
 There are four function namely malloc(), realloc(), calloc() and free() used for memory allocation and these functions are offered by ANSI C.
 
@@ -21,7 +21,7 @@ void _ _near *_nmalloc ( size_t size );              Allocates a block of memory
              
 * We should allocate memory between 25 or 50 bytes and 32,767 bytes.
 
-#### Example Program 7.1: malloc() function
+#### Example Program 8.1: malloc() function
 
 (imgsrc"https://photos.app.goo.gl/EVRe198qseh3A64U8")
 
@@ -41,7 +41,7 @@ void _ _far *_fcalloc( size_t num, size_tsize ); Allocates a block of memory out
 
 void _ _near *_ncalloc ( size_t num, size_t size );              Allocates a block of memory inside the default data segment, returning a near pointer. This function called by malloc() when the small or medium memory model is specified.
 
-#### Example Program 7.2: calloc() function
+#### Example Program 8.2: calloc() function
 
 (imgsrc"https://photos.app.goo.gl/tb4gnQSFUT3JpPzZ9")
 
@@ -65,7 +65,7 @@ Here, this loop used to reset the pointers.
 
 * The realloc() function copies the content of the original block of memory into new block, then it frees the original block. Hence the work is minimized. 
      
-#### Example Program 7.3: realloc() function:
+#### Example Program 8.3: realloc() function:
 
 (imgsrc"https://photos.app.goo.gl/C3TA4CGeXiPD6y2DA")
 
@@ -73,7 +73,7 @@ Here, this loop used to reset the pointers.
 
 It used to dynamically allocte the array at runtime with calloc() call function.
 
-#### Example Program 7.4: Allocating Array:
+#### Example Program 8.4: Allocating Array:
 
 (imgsrc"https://photos.app.goo.gl/cvCKprwyamTPzMJ29")
 

@@ -1,5 +1,5 @@
 # Basic C Programming Tutorial
-## Chapter 10. Loops
+## Chapter 11. Loops
 * A loop statement allows us to execute a statement or group of statements multiple times.
 
 ### Types of Loop:

@@ -4,7 +4,7 @@
 
 ### Chapter 7. C Structures
 
-To store the collection of heterogenous data types seperately.
+To store the collection of heterogenous data seperately.
 
 #### Syntax:
 
@@ -93,7 +93,7 @@ unsigned int bIsWindowed:1;
 
 We can define int x:5 to be a 5-bit int and short z:12 to be a 12-bit short. We cannot determine the address of the bit field variable. This is the major limitation of bit field. If we use the address of opertor, the compile time error will result. An anontymous bit field will force the next bit-field to be aligned to a word boundary or something similar.
 
-Typedef Keyword:
+#### Typedef Keyword:
 
 It used to define a type of variable. It also used to create any data type from simple variables, arrays, structures or unions.
 
@@ -114,7 +114,6 @@ This is the quickest method to determine how many bytes written in the file.
 
 #### Pointers in structure
 
-
 #### Example Program 7.9: Pointers in structure
 
 It is more efficient to pass pointer to a structure compared to pass a entire structure.
@@ -125,3 +124,4 @@ To access the structure arrow operator(->) is used.
 #### Union:
 
 * It used to store the all members in same block and changes of one member will change the entire members too.
+* 

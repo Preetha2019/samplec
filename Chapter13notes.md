@@ -12,7 +12,7 @@
 
      In the definition of function parameters which are called formal parameters.
 
-### Hnt:
+### Hint:
 
 A program can have same name for local and global variables but the value of local variable inside a function will take preference. Here is an example:
 

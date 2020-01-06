@@ -100,7 +100,7 @@ It used to converting a variable of one data type into another data type.
 
 ### Hint:
 
-Must declare the size of an array to ensure tha have not exceed the bounds of the array.
+Must declare the size of an array to ensure that have not exceed the bounds of the array.
 
 ### How to declare an Arrays:
 

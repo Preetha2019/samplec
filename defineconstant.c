@@ -4,10 +4,10 @@
 #define NEWLINE '\n'
 int main()
 {
- int area;
+    int area;
 
- area = LENGTH * WIDTH;
- printf("value of area : %d", area);
- printf("%c", NEWLINE);
- return 0;
+    area = LENGTH * WIDTH;
+    printf("value of area : %d", area);
+    printf("%c", NEWLINE);
+    return 0;
 }

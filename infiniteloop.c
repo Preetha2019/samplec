@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main ()
+int main()
 {
- for( ; ; )
- {
- printf("This loop will run forever.\n");
- }
- return 0;
+    for (;;)
+    {
+        printf("This loop will run forever.\n");
+    }
+    return 0;
 }
