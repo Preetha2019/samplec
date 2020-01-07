@@ -37,7 +37,7 @@ int Myfunction(int n, char a[], char chMode)
 
 __Example2:__
 
-![advancedchapter1fundeclaration-imageo1. Function Declaration Sample Program!](/assets/images/advancedchapter1fundeclaration-image01.png)
+![Advancedchapter1fundeclaration-imageo1. The linux Mascot](/assets/images/advancedchapter1fundeclaration-image01.png"Example Program1-Chapter1")
 
 ### Recommendation to order C source files:
 1. Use a one-line file description with the filename
