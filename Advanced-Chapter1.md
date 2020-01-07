@@ -37,7 +37,7 @@ int Myfunction(int n, char a[], char chMode)
 
 __Example2:__
 
-(img src"https://photos.google.com/photo/AF1QipP02V84yMLGvmZ9AmakOliOvsd1i73bQDyQA49V")
+![Function Declaration Sample Program](images/Ex1.Chapter1.png)
 
 ### Recommendation to order C source files:
 1. Use a one-line file description with the filename
