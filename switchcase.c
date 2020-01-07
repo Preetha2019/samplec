@@ -1,28 +1,28 @@
 #include <stdio.h>
-int main ()
+int main()
 {
- /* local variable definition */
- char grade;
- printf("Please Enter the Grade\n");
- scanf("%c", &grade);
- switch(grade)
- {
- case 'A' :
- printf("Excellent!\n" );
- break;
- case 'B' :
- case 'C' :
- printf("Well done\n" );
- break;
- case 'D' :
- printf("You passed\n" );
- break;
- case 'F' :
- printf("Better try again\n" );
- break;
- default :
- printf("Invalid grade\n" );
- }
- printf("Your grade is %c\n", grade );
- return 0;
+    /* local variable definition */
+    char grade;
+    printf("Please Enter the Grade\n");
+    scanf("%c", &grade);
+    switch (grade)
+    {
+    case 'A':
+        printf("Excellent!\n");
+        break;
+    case 'B':
+    case 'C':
+        printf("Well done\n");
+        break;
+    case 'D':
+        printf("You passed\n");
+        break;
+    case 'F':
+        printf("Better try again\n");
+        break;
+    default:
+        printf("Invalid grade\n");
+    }
+    printf("Your grade is %c\n", grade);
+    return 0;
 }

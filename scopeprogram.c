@@ -1,14 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
-    int nCounter=0;
-    {int nCountLoop=0;
-    do
+    int nCounter = 0;
     {
-        nCountLoop+=3;
-        printf("nCountLoop is =%d?\n", nCountLoop);
-    }
-    while(++nCounter<=10);
+        int nCountLoop = 0;
+        do
+        {
+            nCountLoop += 3;
+            printf("nCountLoop is =%d?\n", nCountLoop);
+        } while (++nCounter <= 10);
     }
     printf("Ended, nCounter is=%d/\n", nCounter);
     return (0);

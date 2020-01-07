@@ -9,6 +9,7 @@ Pointers not only points to objects, but also used to obtain the program's name 
 * To pass arguments from the command line to c program command line arguments are used.
 * It controls c program from outside instead of hard coding those values inside the code.
 * It contains three parameters namely argc, argv[], envp[].
+  
         * Where, argc refers to the number of arguments passed.
         * argv[] is a pointer array which points to each argument passed to the program.
         * envp[] is an array of char pointers, Which is used to get the environmental variables.

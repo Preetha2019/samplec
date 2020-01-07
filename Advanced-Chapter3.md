@@ -4,8 +4,7 @@
 
 ### Pointers:
 
-* Pointer is a variable that holds the address of another variable.
-* But pointer cannot hold the address of constant except string constant.
+* Pointer is a variable that holds the address of another variable.* But pointer cannot hold the address of constant except string constant.
 * & represents the address of operaator.
 
 ### Indirection:

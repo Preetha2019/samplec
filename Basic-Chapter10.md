@@ -2,11 +2,7 @@
 
 ## Chapter 10. Decision Making
 
-* Decision-making structures require that the programmer specifies one or more conditions to be evaluated or tested by
- 
-  the program, along with a statement or statements to be executed if the condition is determined to be true, and 
-  
-  optionally, other statements to be executed if the condition is determined to be false.
+* Decision-making structures used to test the condition then execute the next statement.
 
 * C programming language assumes any __non-zero__ and __non-null values__ as __true__, and if it is either __zero__ 
   

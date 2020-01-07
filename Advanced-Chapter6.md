@@ -36,10 +36,10 @@
 
 _To write effective large projects, the following include files are used_
 
-* #include statemnet
+  * __#include statemnet__
    It includes the file
   
-  ### Example:
+  ##### Example:
 
   #include<stdio.h>
   #include<conio.h>
@@ -49,10 +49,10 @@ _To write effective large projects, the following include files are used_
   #include “vars.h”
   #include “prototyp.h”
 
-* #define statement
+* __#define statement__
   It helps prevent the use of the same identifier being defined for two purposes.
 
-  ### Example:
+  ##### Example:
 
   _#ifndef College_
     If the Collegename isn't specified before #ifndef statement, it returns true otherwise returns false statement.
@@ -62,7 +62,7 @@ _To write effective large projects, the following include files are used_
   #ifndef MACRO
   #ifndef STUDENT
 
-  ### Illustration:
+  ##### Illustration:
 
 (img src"https://photos.app.goo.gl/FkcHBWKoLb1W9ZDn9")
 
@@ -74,14 +74,14 @@ _To write effective large projects, the following include files are used_
   #ifdef MACRO
   #ifdef STUDENT
 
-* #typedef statement
+* __#typedef statement__
    It used to give a name to user defined data type and also it is used to define the variable defined in typedef. It not only include for a stucture but also for the pointers to may point to structure.
 
-  ### Example:
+  ##### Example:
 
-#ifndef TYPEDEF_H
+ #ifndef TYPEDEF_H
 
-#define TYPEDEF_H
+ #define TYPEDEF_H
 
 typedef struct
 
@@ -111,25 +111,25 @@ typedef FONTSPECS NEAR *NPFONTSPECS;
 
 typedef FONTSPECS FAR *LPFONTSPECS;
 
-#endif /* TYPEDEF_H */
+ #endif /* TYPEDEF_H */
 
 
-* vars statement:
+* __vars statement:__
   It defines and declares the variables. It includes all the global variables. Thus it uses extern keyword and it doesn't includes static vaariables. Because it only known in the current file.
 
-  ### Example:
+  ##### Example:
 
-#ifndef VARS_H
+ #ifndef VARS_H
 
-#define VARS_H
+ #define VARS_H
 
-#ifndef EXTERN
+ #ifndef EXTERN
 
-#define EXTERN /*NULL, do variable declarations */
+ #define EXTERN /*NULL, do variable declarations */
 
-#define INITIALIZE_EXTERN
+ #define INITIALIZE_EXTERN
 
-#endif /* EXTERN */
+ #endif /* EXTERN */
 
 EXTERN char szBuffer[257]; /* Scratch buffer, contents undefined */
 
@@ -139,32 +139,32 @@ EXTERN int nErrorCount; /* How many errors so far? */
 
 EXTERN int nErrorValue
 
-#if defined(INITIALIZE_EXTERN) /* Do the initialization */
+ #if defined(INITIALIZE_EXTERN) /* Do the initialization */
 
 = {NO_ERROR} /* Initialized */
 
-#endif
+ #endif
 
 ;
 
-#if defined (INITIALIZE_EXTERN)
+ #if defined (INITIALIZE_EXTERN)
 
-#undef INITIALIZE_EXTERN
+ #undef INITIALIZE_EXTERN
 
-#endif
+ #endif
 
-#endif /* VARS_H */
+ #endif /* VARS_H */
 
 
-* prototyp statement:
+* __prototyp statement:__
   
 It contains function prototype for each program's funtion.
 
-  ### Example:
+  ##### Example:
 
 ifndef PROTOTYP_H
 
-#define PROTOTYP_H
+ #define PROTOTYP_H
 
 /* source file return name(parameters); */
 
@@ -176,9 +176,9 @@ ifndef PROTOTYP_H
 
 long lSomething);
 
-#endif /* PROTOYTP_H */
+ #endif /* PROTOYTP_H */
 
-### Object Utility Library(LIB):
+#### Object Utility Library(LIB):
 
 * It is used to maintain library files.
 
@@ -199,9 +199,51 @@ followed by an add
 
 * MAKE file has the variables. If this varaiable defined referenced by enclosing it within the parentheses and preceding the opening parentheses with a dollar sign. So, It have the capability to quickly add new source.If this isn't defined, the result is blank, no error will be generated.
   
-  #### Example here variable(includes) is defined:
+  ##### Example here variable(includes) is defined:
 
   includes = twofile.h define.h typedef.h vars.h prototyp.h
 
 * It looks at the date on which one file was created or last modified and compares it to the date of another file. If the first file is older than the second, the MAKE performs some specified action, such as compiling, linking, or another command that can be called from the command prompt.
 * To automate the process of creating a large program that has multiple source file the MAKE file is used.
+  
+### Step by step Procedure to create make file in c and c++:
+
+__Step 1:__
+
+* Create a new file in text editor and put name as Makefile(here spelling is important)
+  
+  In make file we can give command with "####" delimiter
+
+  Ex: #### This target will compile 
+
+__Step 2:__
+
+* Makefile have a target name before colon and this name haasa the dependency on the file that has declared after colon with one whitespace.
+S
+  "target name": "Dependency file"
+
+  Ex: hello: world
+
+__Step 3:__
+
+* After the target name, next line must declare the command for execution and it should be spaced with single tab.
+  
+ For c program:
+
+    gcc twofile1.c twofile2.c -o world
+
+For c++ program:
+
+    g++ twofile1.cpp twofile2.cpp -o world
+
+__Step 4:__
+
+* Then compile this program in compiler with "make" and "target name", then we have the exectable file corresponds to that target name.
+  
+        _Hint:_ _Make always detects the first target and execute first target until any target name is specified._
+
+               _If any changes in particular file ,it only execute that file unless execute all the files._
+
+__Step 5:__
+
+* After that we can execute the program.

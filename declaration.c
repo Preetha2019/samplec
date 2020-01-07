@@ -1,20 +1,20 @@
-long int lSum; 
-long int lSub;// Using ‘int’ is optional.
+long int lSum;
+long int lSub; // Using ‘int’ is optional.
 long int lCount;
 void SumInt(int nItem)
 {
-lSum += (long)nItem;
-++lCount;
+    lSum += (long)nItem;
+    ++lCount;
 }
 void SubInt(
-int nItem)
+    int nItem)
 {
-lSum -= (long)nItem;
---lCount;
+    lSum -= (long)nItem;
+    --lCount;
 }
 int Average()
 {
-int nReturn = 0;
-nReturn = (int)(lSum / lCount);
-return (nReturn);
+    int nReturn = 0;
+    nReturn = (int)(lSum / lCount);
+    return (nReturn);
 }

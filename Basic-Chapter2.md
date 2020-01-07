@@ -1,4 +1,4 @@
-# Basic C Programming Tuorial
+# Basic C Programming Tutorial
 ## Chapter 2.Environment Setup
 ### Local Environment Setup
 
