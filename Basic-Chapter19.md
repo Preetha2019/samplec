@@ -16,6 +16,7 @@ type [member_name] : width ;
 
     __Example Program__
 
+
 ![Bit Sample Example Program](images/basicchapter19bitsample-image01.png)
 
 ### Note:
