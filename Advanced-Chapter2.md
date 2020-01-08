@@ -74,6 +74,7 @@ __Data Type__    -   __Initial Default Value__
     pointer      -          NULL
 
 #### Scope Rules:
+
    * It is a region of the program where a defined variable can have its existence and beyond that variable it cannot be accessed.
 
 #### Example:2.2
@@ -81,6 +82,7 @@ __Data Type__    -   __Initial Default Value__
 ![Scoperule Example Program](images/Ex2-Scope-chapter2.png)
 
 #### Life span:
+
    * Life span indicates how long the variable or function going to be here.
 
 #### Example:2.3
@@ -88,6 +90,7 @@ __Data Type__    -   __Initial Default Value__
 ![Lifespan Example Program](images/Ex3-Lifespan-chapter2.png)
 
 #### Type Casting:
+
 * It used to converting a variable of one data type into another data type.
 
 #### Example:2.4
@@ -109,6 +112,7 @@ __Data Type__    -   __Initial Default Value__
 datatype arrayName [ arraySize ];
 
 ### How to  Access an Array Elements:
+
  * Declare an Array
  * Initialize the elements of an array
  * Access elements of an array by calling with arrayName
