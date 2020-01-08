@@ -70,7 +70,7 @@ int Myfunction(int n, char a[], char chMode)
 
 __Example2:__
 
-![Function Declaration Example Program](images/../Ex1.Chapter1.png)
+![Function Declaration Example Program](images/Ex1-Fundeclar-chapter1.png)
 
 ### Recommendation to order C source files:
 
