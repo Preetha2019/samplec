@@ -107,9 +107,9 @@ __Example2:__
 ** COPYRIGHT 1992: By whomever. All rights reserved. All wrongs deserved.
 
 4. After the program header, put the definitions and declarations used in this file.
-   
+
 5. List the file's functions.
-   
+
 ### Memory Models
 
 *_using a memory model larger than necessary isn’t always a serious problem._
