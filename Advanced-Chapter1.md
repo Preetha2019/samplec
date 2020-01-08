@@ -18,7 +18,7 @@ Most of C's power comes from these attributes:
 
 * C has a powerful library of functions
   
-#### Conditions:
+#### Conditions
 
 * If the compiler does extend the ANSI compiler minimum limits and you use the extensions, you can be sure that when your program is compiled with another compiler, it will either not compile correctly or not execute correctly.
   
@@ -54,13 +54,13 @@ Most of C's power comes from these attributes:
     
 14. Use the new _style_ function headers.
     
-### Hungarian notation:
+### Hungarian notation
 
 *_Hungarian notation_ prefixes a variable name with a letter or letters to tell the programmer what data type the variable contains.
 
 *_Hungarian notation_ helps to prevent assigning the wrong data type to a variable, and helps you understand why you are using a particular data object.
 
-### Function declaration:
+### Function declaration
 
 * When you are writing a function, you must have a function declaration.
 
@@ -72,7 +72,7 @@ __Example2:__
 
 ![Function Declaration Example Program](images/Ex1-Fundeclar-chapter1.png)
 
-### Recommendation to order C source files:
+### Recommendation to order C source files
 
 1. Use a one-line file description with the filename
    
