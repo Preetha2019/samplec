@@ -24,11 +24,11 @@
 * Other identifiers generally are defined in float.h
   
 ### Constants:
-All homes are buildings, but not all buildings are homes. All literals are _constants_, but
-_not all constants are literals_.
+All homes are buildings, but not all buildings are homes. All literals are _constants_, but_not all constants are literals_.
 
-__Example:__
-(img scr"https://photos.app.goo.gl/7GUBujTazSkqNuxp9")
+__Example:2.1__
+
+![Function Declaration Example Program](images/Ex1-Fundeclar-chapter2.png)
 
 ## Definitions Versus Declaration:
 * When a data object is declared, only its attributes are made known to the compiler. When an object is defined, not only are its attributes made known, but also the object is created. For a variable, memory is allocated to hold it; for a function, its code is compiled into an object module.
@@ -45,8 +45,8 @@ __Example:__
 * struct_tag Example example;
 
 ### Variables:
-    Variable data object can be modified.
-    Variables can be any of data type like int, float, char, structure or union.
+* Variable data object can be modified.
+* Variables can be any of data type like int, float, char, structure or union.
 
 ### Why we need __Iniitialization__???
 
@@ -74,23 +74,25 @@ __Data Type__    -   __Initial Default Value__
     pointer      -          NULL
 
 #### Scope Rules:
-    It is a region of the program where a defined variable can have its existence and beyond that variable it cannot be accessed.
+   * It is a region of the program where a defined variable can have its existence and beyond that variable it cannot be accessed.
 
-#### Example:
+#### Example:2.2
 
-(img src"https://photos.app.goo.gl/uYT25eB5FKVb4FTW9")
+![Scoperule Example Program](images/Ex2-Scope-chapter2.png)
 
 #### Life span:
-    Life span indicates how long the variable or function going to be here.
+   * Life span indicates how long the variable or function going to be here.
 
-#### Example:
+#### Example:2.3
 
-(img src"https://photos.app.goo.gl/GSZKRx2M8rVDSU9X6")
+![Lifespan Example Program](images/Ex3-Lifespan-chapter2.png)
 
 #### Type Casting:
-It used to converting a variable of one data type into another data type.
+* It used to converting a variable of one data type into another data type.
 
-(img src"https://photos.app.goo.gl/GDZSzLGb551QyhLg9")
+#### Example:2.4
+
+![Typecasting Example Program](images/Ex4-typecast-chapter2.png)
 
 #### Arrays:
 
@@ -100,7 +102,7 @@ It used to converting a variable of one data type into another data type.
 
 ### Hint:
 
-Must declare the size of an array to ensure that have not exceed the bounds of the array.
+* Must declare the size of an array to ensure that have not exceed the bounds of the array.
 
 ### How to declare an Arrays:
 
@@ -114,21 +116,25 @@ datatype arrayName [ arraySize ];
 
 ## Concepts of Array:
 
-    C supports multi dimentional array
+* C supports multi dimentional array
 
     ### Declaration of multidimensional array:
 
-    datatype name[size1][size2]...[sizeN];
+        datatype name[size1][size2]...[sizeN];
 
-(img src"https://photos.app.goo.gl/bW75SHpyRXjsG7Zi9")
+#### Example:2.5
 
-### Example:
+![Accessingarray Example Program](images/Ex5-accarray-chapter2.png)
 
-(img src "https://photos.app.goo.gl/k9Fjd7UjVuFB7U49A")
+### Example:2.6
+
+![Arrayindexing Example Program](images/Ex6-arrindexing-chapter2.png)
 
 ### Array Name as pointers:
 
-(img src"https://photos.app.goo.gl/hdUprWavyXJwV5QQA")
+#### Example:2.7
+
+![Arraynameaspointer Example Program](images/Ex7-arrnamedaspointer-chapter2.png)
 
 Here, memory dynamically allocated with the help of malloc header file
 
@@ -141,4 +147,6 @@ Here, memory dynamically allocated with the help of malloc header file
 
 ### Array of Pointers:
 
-(imgsrc"https://photos.app.goo.gl/eMgiYZQcaGcqEdNXA")
+#### Example:2.8
+
+![ArrayofPointer Example Program](images/Ex8-arrofpointer-chapter2.png)
