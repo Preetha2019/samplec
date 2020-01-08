@@ -1,6 +1,6 @@
 # ADVANCED C
 
-## PART I- Honing Your C Skills
+## PART I- HONING YOUR C SKILLS
 
 ### CHAPTER I- The C Philosophy
 
