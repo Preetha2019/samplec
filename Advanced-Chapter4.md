@@ -14,9 +14,23 @@ Pointers not only points to objects, but also used to obtain the program's name 
         * argv[] is a pointer array which points to each argument passed to the program.
         * envp[] is an array of char pointers, Which is used to get the environmental variables.
   
-#### Example Program:
+#### Example Program 4.1: Commandline Argument
 
-(img src"https://photos.app.goo.gl/h45e3TKBrk25o2Sa7")
+![Pass an argument instead of hard coding- Example Program](images/Ex1-commarg-chapter4.png)
 
 ##### Note:
-Here, argc holds the number of argument, argv[0] holds the name of the program itself and arg[1] is a pointer to the first command line argument supplied and argv[n] is the last argument. If no parameter supplied, argc will be one. Arguments are seperated by command line argument seperator space or comma. If arguments itself have space then double quotes"" or single quotes'' are used to pass different arguments. Environmental variable stands for dynamic object, it helps programs know what diectory to install files in, where to store temporary files and where to find user profile settings.In this example program, %2d represents , it will only allow an interger upto two digits long and %50s used to read 51 character long array.
+Here, argc holds the number of argument, argv[0] holds the name of the program itself and arg[1] is a pointer to the first command line argument supplied and argv[n] is the last argument. If no parameter supplied, argc will be one. Arguments are seperated by command line argument seperator space or comma. If arguments itself have space then double quotes"" or single quotes'' are used to pass different arguments. Environmental variable stands for dynamic object, it helps programs know what diectory to install files in, where to store temporary files and where to find user profile settings. In this example program, %2d represents , it will only allow an interger upto two digits long and %50s used to read 51 character long array.
+
+#### Example Program 4.2: Justify.c
+
+![Justify- Example Program](images/Ex2-justify-chapter4.png)
+
+#### Example Program 4.3: Function Pointer
+
+![Function Pointer- Example Program](images/Ex3-Funptr-chapter4.png)
+
+### State machine:
+
+* State machines consist of a controlling variable, whose value indicates the current operating status of the function.
+  
+* State machines enables to efficiently design a program
