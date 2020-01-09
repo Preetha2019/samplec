@@ -12,9 +12,9 @@
 
 ### Options in linker command:
 
-* Linker accepts multiline commands. 
+* Linker accepts multiline commands.
 * While linking, linker requires minimum of the name of the compiler output.
-* The linker commands has a number of options. 
+* The linker commands has a number of options.
 * These options tell the linker to include line number information for the debugger (/linenumbers), align objects on 16-byte boundaries (/al:16), not use the default libraries (/nod) that the compiler inserts in the OBJ files, and create a load map used for debugging (/map).
 
 ### Parameters in linker:
@@ -62,9 +62,9 @@ _To write effective large projects, the following include files are used_
   #ifndef MACRO
   #ifndef STUDENT
 
-  ##### Illustration:
+  ##### Illustration 6.1: ifndef.c
 
-(img src"https://photos.app.goo.gl/FkcHBWKoLb1W9ZDn9")
+![ifndef-Example Program](images/Ex1-ifndef-chapter6.png)
 
   _#ifdef College_
     If the Collegename is specified before #ifndef statement, it returns true otherwise returns false statement.
@@ -156,7 +156,7 @@ EXTERN int nErrorValue
  #endif /* VARS_H */
 
 
-* __prototyp statement:__
+* __prototype statement:__
   
 It contains function prototype for each program's funtion.
 
@@ -178,12 +178,16 @@ long lSomething);
 
  #endif /* PROTOYTP_H */
 
+#### Example Program 6.2: twofile.c
+
+![twofile Example Program](images/Ex2-twofile-chapter6.png)
+
 #### Object Utility Library(LIB):
 
 * It is used to maintain library files.
 
 * It performs the following functions:
-* 
+
 • Adds an object module to the library
 
 • Deletes an existing object module from the library
