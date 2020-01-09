@@ -2,12 +2,12 @@
 
 ## Chapter 3. Pointers and Indirection
 
-### Pointers:
+### Pointers
 
 * Pointer is a variable that holds the address of another variable.* But pointer cannot hold the address of constant except string constant.
 * & represents the address of operaator.
 
-### Indirection:
+### Indirection
 
 * Obtaining the value of the memory object to which the pointer is pointing.
 
@@ -19,7 +19,7 @@
 
 ![Adder Example Program](images/Ex2-Adderad-chapter3.png)
 
-### String:
+### String
 
 * C stores string as array of type char.
 
