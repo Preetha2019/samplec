@@ -21,9 +21,9 @@ void _ _near *_nmalloc ( size_t size );              Allocates a block of memory
              
 * We should allocate memory between 25 or 50 bytes and 32,767 bytes.
 
-#### Example Program 8.1: malloc() function
+#### Explanation 8.1: malloc() function
 
-(imgsrc"https://photos.app.goo.gl/EVRe198qseh3A64U8")
+![Malloc Explanation](images/Ex1-malloc-chapter8&#32;(1).png)
 
 ### * calloc() function:
 
@@ -41,9 +41,9 @@ void _ _far *_fcalloc( size_t num, size_tsize ); Allocates a block of memory out
 
 void _ _near *_ncalloc ( size_t num, size_t size );              Allocates a block of memory inside the default data segment, returning a near pointer. This function called by malloc() when the small or medium memory model is specified.
 
-#### Example Program 8.2: calloc() function
+#### Explanation 8.2: calloc() function
 
-(imgsrc"https://photos.app.goo.gl/tb4gnQSFUT3JpPzZ9")
+![Calloc Explanation](images/Ex2-calloc-chapter8.png)
 
 #### free() function:
 
@@ -65,9 +65,9 @@ Here, this loop used to reset the pointers.
 
 * The realloc() function copies the content of the original block of memory into new block, then it frees the original block. Hence the work is minimized. 
      
-#### Example Program 8.3: realloc() function:
+#### Explanation 8.3: realloc() function:
 
-(imgsrc"https://photos.app.goo.gl/C3TA4CGeXiPD6y2DA")
+![Realloc Explanation](images/Ex3-realloc-chapter8&#32;(2).png)
 
 #### Allocating Array:
 
@@ -75,7 +75,7 @@ It used to dynamically allocte the array at runtime with calloc() call function.
 
 #### Example Program 8.4: Allocating Array:
 
-(imgsrc"https://photos.app.goo.gl/cvCKprwyamTPzMJ29")
+![Allocating Array Example Program](images/Ex4-adarrayalloc-chapter8.png)
 
 #### Hint:
 
