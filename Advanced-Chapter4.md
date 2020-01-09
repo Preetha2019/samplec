@@ -4,7 +4,7 @@
 
 Pointers not only points to objects, but also used to obtain the program's name and any parameters that have been entered by user. We will see this kind of special pointers in this chapter.
 
-### Command line Arguments:
+### Command line Arguments
 
 * To pass arguments from the command line to c program command line arguments are used.
 * It controls c program from outside instead of hard coding those values inside the code.
@@ -29,7 +29,7 @@ Here, argc holds the number of argument, argv[0] holds the name of the program i
 
 ![Function Pointer- Example Program](images/Ex3-Funptr-chapter4.png)
 
-### State machine:
+### State machine
 
 * State machines consist of a controlling variable, whose value indicates the current operating status of the function.
   
