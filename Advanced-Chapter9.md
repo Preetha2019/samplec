@@ -21,13 +21,13 @@
 
 #### Example Program 9.1: Textfile with newline conversions
 
-(imgsrc"https://photos.app.goo.gl/ywZkoUp1RaHUc2eA6")
+![Textfile Example Program](images/Ex1-adtext-chapter9.png)
 
 Here, in binary mode the number of bytes depends only on the number of charcter not on the number of new line character. But whereas, the number of bytes depends on the number of new line character in text mode.
 
 #### Example Program 9.2: Line Editing
 
-(imgsrc"https://photos.app.goo.gl/zucxaxN3L9D7PuMB6")
+![Line Editing Example Program](images/Ex2-Adeditline-Chapter9.png)
 
 Here, the sscanf() function used to allow us to read the formatted data from a string rather than standard input.
 
