@@ -1,4 +1,9 @@
 # Advanced C Programming
+TODO:
+Complete further learning and document
+* 1[sort numbers](images/testMallocCreationsImg0.png) and
+
+* ![sortTexts](images/testMallocCreationsImg1.png)
 
 ## Chapter 10. Data Management: Sorts, Lists and Indexes
 
