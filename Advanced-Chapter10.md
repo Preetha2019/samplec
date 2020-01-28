@@ -1,7 +1,7 @@
 # Advanced C Programming
 TODO:
 Complete further learning and document
-* 1[sort numbers](images/testMallocCreationsImg0.png) and
+* ![sort numbers](images/testMallocCreationsImg0.png) and
 
 * ![sortTexts](images/testMallocCreationsImg1.png)
 
