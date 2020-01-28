@@ -1,7 +1,7 @@
 // g++ ./test.c -o a.exe 
 // a.exe
 // run programs from images attached for this
-// 1[sort numbers](testMallocCreationsImg0.png) and ![sortTexts](testMallocCreationsImg1.png)
+// 1[sort numbers](images/testMallocCreationsImg0.png) and ![sortTexts](images/testMallocCreationsImg1.png)
 //https://pubs.opengroup.org/onlinepubs/9699919799/
 
 #include <stdio.h>   // Make includes first part of file
@@ -28,7 +28,7 @@ int cmp(const void *, const void *); //define comparator function so it compiles
 
 char szInput[LINE_MAX];
 char *szBuffer;
-char *pBlocks[MAX_BLOCKS];
+//char *pBlocks[MAX_BLOCKS];
 char *pBuffer[MAX_LINES];
 int nCurrentBlock = 0;
 int nBufferPointer = {MAX_CHARACTERS};
@@ -54,7 +54,10 @@ int main() {
             // sending to standard error output as warning
             fprintf(stderr, " Allocating buffer (32K).\n");
             nBufferPointer = 0;
-            pBlocks[nCurrentBlock] = szBuffer;
+            //this line is left commented intentionally to denote that this line is not required.
+            //can be remove in subsequent update
+            //pBlocks[nCurrentBlock] = szBuffer;
+            //how many times did I do malloc dynamically
             ++nCurrentBlock;
             if (szBuffer == NULL)
             {
