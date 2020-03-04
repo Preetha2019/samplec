@@ -1,5 +1,5 @@
 #include<stdio.h>
-  
+#include<stdbool.h>
 const int k = 2; 
   
 // A structure to represent node of kd tree 
@@ -102,10 +102,10 @@ int main()
        root = insert(root, points[i]); 
   
     int point1[] = {10, 19}; 
-    (search(root, point1))? cout << "Found\n": cout << "Not Found\n"; 
+    (search(root, point1))? printf("Found\n"): printf( "Not Found\n"); 
   
     int point2[] = {12, 19}; 
-    (search(root, point2))? cout << "Found\n": cout << "Not Found\n"; 
+    (search(root, point2))? printf( "Found\n"): printf( "Not Found\n"); 
   
     return 0; 
 }
